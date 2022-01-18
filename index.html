@@ -8,7 +8,7 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,8 +17,99 @@
 		<div class="reveal">
 			<div class="reveal">
 				<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+					<section data-markdown>
+						<textarea data-template>
+							## Getting Started in Python
+
+							CircuitPython and MicroPython
+							
+							---
+							
+							**Python** is a **programming language**
+							
+							Python is one of the easier languages to start with. It tends to be used most where programming is a tool, rather than for writing large programs like operating systems.
+							
+							------
+							
+							We're using **MicroPython** and **CircuitPython** in this class.
+							
+							These are scaled back versions of Python that can run on smaller, weaker hardware. They're not identical, but similar enough that it won't make a difference right now
+							
+							---
+							
+							## Concepts and Vocabulary
+							
+							------
+							
+							### [Reference](https://microbit-micropython.readthedocs.io/)
+							
+							A document containing information about the programming language
+							
+							------
+							
+							### Syntax
+							
+							The grammar of a programming language. Unlike your English teacher, Python doesn't understand what you mean if you write it wrong
+							
+							------
+							
+							### Comments
+							
+							Text that the computer will ignore. In Python, these start with `#`. We use these to make code easier for humans to understand. We can also temporarily deactivate bits of code this way.
+							
+							------
+							
+							### Libraries/Modules
+							
+							Additional bundles of programming functions that we can add to our code
+							
+							------
+							
+							### Import statements
+							
+							The way we add libraries/modules to our code
+							
+							------
+							
+							### Dot notation
+							
+							A way of indicating hierarchy (which items are 'inside' other items). For instance, `Animal.cat` would refer to the 'cat' item within the 'Animal' category
+							
+							------
+							
+							### Functions
+							
+							Actions the programming language understands how to do. Can be built in, acquired from libraries/modules, or written by the programmer
+							
+							------
+							
+							### Parameters/arguments
+							
+							Additional information you give to a function
+							
+							------
+							
+							### Blocks of code
+							
+							A way of using indentation (or curly brackets in many languages) to show that certain code is conditional on a line at the top, or 'belongs' to it
+							
+							---
+							
+							# Hello World
+							
+							------
+							
+							For the Chromebook, you can use the [browser-based editor](https://python.microbit.org/v/2)
+							
+							```python
+							# import all microbit modules
+							from microbit import *
+							
+							# scroll 'hello world' on the display
+							display.scroll("Hello World")
+							
+						</textarea>
+					  </section>
 				</div>
 			</div>
 		</div>
